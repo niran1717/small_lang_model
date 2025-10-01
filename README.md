@@ -88,6 +88,7 @@ This will:
 - Load and tokenize the TinyStories dataset.
 - Train the SLM on batches from `train.bin` / `validation.bin`.
 - Save the best model checkpoint as `best_model_params.pt`.
+
 Example training:
 ![Training](./outputs/train.png)
 
