@@ -89,6 +89,9 @@ This will:
 - Train the SLM on batches from `train.bin` / `validation.bin`.
 - Save the best model checkpoint as `best_model_params.pt`.
 
+![Training](./train.png)
+
+
 ---
 
 ## 💡 Inference
@@ -96,14 +99,11 @@ This will:
 Generate text with the trained model:
 
 ```bash
-python inference.py --prompt "Once upon a time, there was a little dragon"
+python inference.py
 ```
 
-Example output:
+![Example Output](./inference.png)
 
-```
-Once upon a time, there was a little dragon. The dragon loved to play in the forest with his friends...
-```
 
 ---
 
