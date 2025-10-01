@@ -89,7 +89,7 @@ This will:
 - Train the SLM on batches from `train.bin` / `validation.bin`.
 - Save the best model checkpoint as `best_model_params.pt`.
 
-![Training](./train.png)
+![Training](./outputs/train.png)
 
 
 ---
@@ -102,7 +102,7 @@ Generate text with the trained model:
 python inference.py
 ```
 
-![Example Output](./inference.png)
+![Example Output](./outputs/inference.png)
 
 
 ---
