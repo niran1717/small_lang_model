@@ -110,7 +110,6 @@ Once upon a time, there was a little dragon. The dragon loved to play in the for
 ## 📈 Results
 
 During training, losses are logged and plotted in `outputs/`.  
-A sample loss curve is shown below (train vs validation):
 ![Train vs Validation Loss](./outputs/loss_plot.png)
 
 ---
