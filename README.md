@@ -88,7 +88,7 @@ This will:
 - Load and tokenize the TinyStories dataset.
 - Train the SLM on batches from `train.bin` / `validation.bin`.
 - Save the best model checkpoint as `best_model_params.pt`.
-
+Example training:
 ![Training](./outputs/train.png)
 
 
@@ -101,7 +101,7 @@ Generate text with the trained model:
 ```bash
 python inference.py
 ```
-
+Example Inference:
 ![Example Output](./outputs/inference.png)
 
 
